@@ -38,7 +38,7 @@ function newCard (obj){
     const author = document.createElement('div');
     const imgContainer = document.createElement('div');
     const img = document.createElement('img');
-    const span = document.createElement('span');
+    const name = document.createElement('span');
 
     card.classList.add('card');
     headline.classList.add('headline');
@@ -47,13 +47,13 @@ function newCard (obj){
 
     card.append(headline);
     card.append(author);
-    card.append(span);
+    author.append(name);
     author.append(imgContainer);
     imgContainer.append(img);
 
     headline.textContent = obj.headline;
     img.src = obj.authorPhoto;
-    span.textContent = `Author: ${obj.authorName}`
+    name.textContent = `Author: ${obj.authorName}`
 
     return card
 }
