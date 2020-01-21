@@ -38,11 +38,11 @@ A: Events are actions that take place in a browser that are either initiated by 
 
 3. What is an event listener?
 
-A: An event listener is an interface to an element that waits and *listens* for the specified event to occur.
+A: An event listener is an interface to an element that waits and "listens" for the specified event to occur.
 
 4. Why would we convert a NodeList into an Array?
 
-A: NodeList's are very useful but are only "array-like", not actual arrays. As such, many Array methods such as `forEach`, `map`, and `filter` are not accesible. 
+A: NodeList's are very useful but are only "array-like", not actual arrays. As such, many Array methods such as `reduce`, `map`, and `filter` are not accesible. 
 
 5. What is a component?
 
